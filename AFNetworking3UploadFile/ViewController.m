@@ -7,7 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "WQUploadFileEnums.h"
+#import "NSString+FileMimeType.h"
+#import "WQUploadFileServer.h"
+#import <ReactiveCocoa.h>
 @interface ViewController ()
 
 @end
@@ -16,6 +19,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    WQUploadFileServer* server = [WQUploadFileServer shareInstance];
+   // UIImage* image = [UIImage imageNamed:@"test"];
+   // NSData* data = UIImagePNGRepresentation(image);
+    NSString* str = [[NSBundle mainBundle]pathForResource:@"GCD分享" ofType:@"pptx"];
+    NSData* data = [NSData dataWithContentsOfFile:str];
+    
+   [[server uploadFileWithData:data mimeType:KFileMineTypePPTX] subscribeNext:^(id x) {
+       NSLog(@"%@",x);
+       
+   } error:^(NSError *error) {
+        NSLog(@"%@",error);
+   }];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

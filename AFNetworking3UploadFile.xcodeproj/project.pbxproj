@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B650F6CA06E3E987B6EF841 /* libPods-AFNetworking3UploadFile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4839AB96304A94133BE431B5 /* libPods-AFNetworking3UploadFile.a */; };
 		3E869C7B1D9D47920071EAA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E869C7A1D9D47920071EAA8 /* main.m */; };
 		3E869C7E1D9D47920071EAA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E869C7D1D9D47920071EAA8 /* AppDelegate.m */; };
 		3E869C811D9D47920071EAA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E869C801D9D47920071EAA8 /* ViewController.m */; };
@@ -15,6 +16,24 @@
 		3E869C891D9D47920071EAA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E869C871D9D47920071EAA8 /* LaunchScreen.storyboard */; };
 		3E869C941D9D47920071EAA8 /* AFNetworking3UploadFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E869C931D9D47920071EAA8 /* AFNetworking3UploadFileTests.m */; };
 		3E869C9F1D9D47920071EAA8 /* AFNetworking3UploadFileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E869C9E1D9D47920071EAA8 /* AFNetworking3UploadFileUITests.m */; };
+		3E869CAE1D9D48400071EAA8 /* WQUploadFileServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E869CAD1D9D48400071EAA8 /* WQUploadFileServer.m */; };
+		3E869CB11D9D4B5C0071EAA8 /* NSString+DES.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E869CB01D9D4B5C0071EAA8 /* NSString+DES.m */; };
+		3E869CB41D9D4B750071EAA8 /* LQBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E869CB31D9D4B750071EAA8 /* LQBase64.m */; };
+		3E869CB71D9D4B8C0071EAA8 /* NSString+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E869CB61D9D4B8C0071EAA8 /* NSString+NSHash.m */; };
+		3E869CBA1D9D4DD50071EAA8 /* NSDictionary+CoverMimeType.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E869CB91D9D4DD50071EAA8 /* NSDictionary+CoverMimeType.m */; };
+		3E869CBE1D9D4EA50071EAA8 /* NSString+FileMimeType.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E869CBD1D9D4EA50071EAA8 /* NSString+FileMimeType.m */; };
+		3E869CC01D9DE5250071EAA8 /* 部门会议-20160922.ppt in Resources */ = {isa = PBXBuildFile; fileRef = 3E869CBF1D9DE5250071EAA8 /* 部门会议-20160922.ppt */; };
+		3E869CCC1D9DE5460071EAA8 /* 产品研发部2016年月度考核-8月-魏琦.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 3E869CC11D9DE5460071EAA8 /* 产品研发部2016年月度考核-8月-魏琦.xlsx */; };
+		3E869CCD1D9DE5460071EAA8 /* MSC12_John_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E869CC21D9DE5460071EAA8 /* MSC12_John_001.jpg */; };
+		3E869CCE1D9DE5460071EAA8 /* 1234.docx in Resources */ = {isa = PBXBuildFile; fileRef = 3E869CC31D9DE5460071EAA8 /* 1234.docx */; };
+		3E869CCF1D9DE5460071EAA8 /* 851571379590054.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E869CC41D9DE5460071EAA8 /* 851571379590054.gif */; };
+		3E869CD01D9DE5460071EAA8 /* 应用服务接口规范说明-文件模块.doc in Resources */ = {isa = PBXBuildFile; fileRef = 3E869CC51D9DE5460071EAA8 /* 应用服务接口规范说明-文件模块.doc */; };
+		3E869CD11D9DE5460071EAA8 /* 宋秉洋 - 雨天.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E869CC61D9DE5460071EAA8 /* 宋秉洋 - 雨天.mp3 */; };
+		3E869CD21D9DE5460071EAA8 /* MicrosoftShipAssertLog_MSWD1433_Send.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E869CC71D9DE5460071EAA8 /* MicrosoftShipAssertLog_MSWD1433_Send.txt */; };
+		3E869CD31D9DE5460071EAA8 /* presentation-onevcat.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3E869CC81D9DE5460071EAA8 /* presentation-onevcat.pdf */; };
+		3E869CD41D9DE5460071EAA8 /* 06-往网页中添加内容(掌握).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3E869CC91D9DE5460071EAA8 /* 06-往网页中添加内容(掌握).mp4 */; };
+		3E869CD51D9DE5460071EAA8 /* 产品研发部2016年月度考核-8月-魏琦.xls in Resources */ = {isa = PBXBuildFile; fileRef = 3E869CCA1D9DE5460071EAA8 /* 产品研发部2016年月度考核-8月-魏琦.xls */; };
+		3E869CD61D9DE5460071EAA8 /* GCD分享.pptx in Resources */ = {isa = PBXBuildFile; fileRef = 3E869CCB1D9DE5460071EAA8 /* GCD分享.pptx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		104BA302FE71A346A28825C8 /* Pods-AFNetworking3UploadFile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking3UploadFile.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking3UploadFile/Pods-AFNetworking3UploadFile.release.xcconfig"; sourceTree = "<group>"; };
 		3E869C761D9D47920071EAA8 /* AFNetworking3UploadFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworking3UploadFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E869C7A1D9D47920071EAA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E869C7C1D9D47920071EAA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +71,33 @@
 		3E869C9A1D9D47920071EAA8 /* AFNetworking3UploadFileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworking3UploadFileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E869C9E1D9D47920071EAA8 /* AFNetworking3UploadFileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworking3UploadFileUITests.m; sourceTree = "<group>"; };
 		3E869CA01D9D47920071EAA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E869CAC1D9D48400071EAA8 /* WQUploadFileServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQUploadFileServer.h; sourceTree = "<group>"; };
+		3E869CAD1D9D48400071EAA8 /* WQUploadFileServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQUploadFileServer.m; sourceTree = "<group>"; };
+		3E869CAF1D9D4B5C0071EAA8 /* NSString+DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DES.h"; sourceTree = "<group>"; };
+		3E869CB01D9D4B5C0071EAA8 /* NSString+DES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DES.m"; sourceTree = "<group>"; };
+		3E869CB21D9D4B750071EAA8 /* LQBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQBase64.h; sourceTree = "<group>"; };
+		3E869CB31D9D4B750071EAA8 /* LQBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQBase64.m; sourceTree = "<group>"; };
+		3E869CB51D9D4B8C0071EAA8 /* NSString+NSHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSHash.h"; sourceTree = "<group>"; };
+		3E869CB61D9D4B8C0071EAA8 /* NSString+NSHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSHash.m"; sourceTree = "<group>"; };
+		3E869CB81D9D4DD50071EAA8 /* NSDictionary+CoverMimeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CoverMimeType.h"; sourceTree = "<group>"; };
+		3E869CB91D9D4DD50071EAA8 /* NSDictionary+CoverMimeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CoverMimeType.m"; sourceTree = "<group>"; };
+		3E869CBB1D9D4E0E0071EAA8 /* WQUploadFileEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQUploadFileEnums.h; sourceTree = "<group>"; };
+		3E869CBC1D9D4EA50071EAA8 /* NSString+FileMimeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FileMimeType.h"; sourceTree = "<group>"; };
+		3E869CBD1D9D4EA50071EAA8 /* NSString+FileMimeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FileMimeType.m"; sourceTree = "<group>"; };
+		3E869CBF1D9DE5250071EAA8 /* 部门会议-20160922.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "部门会议-20160922.ppt"; sourceTree = "<group>"; };
+		3E869CC11D9DE5460071EAA8 /* 产品研发部2016年月度考核-8月-魏琦.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "产品研发部2016年月度考核-8月-魏琦.xlsx"; sourceTree = "<group>"; };
+		3E869CC21D9DE5460071EAA8 /* MSC12_John_001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MSC12_John_001.jpg; sourceTree = "<group>"; };
+		3E869CC31D9DE5460071EAA8 /* 1234.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1234.docx; sourceTree = "<group>"; };
+		3E869CC41D9DE5460071EAA8 /* 851571379590054.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 851571379590054.gif; sourceTree = "<group>"; };
+		3E869CC51D9DE5460071EAA8 /* 应用服务接口规范说明-文件模块.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "应用服务接口规范说明-文件模块.doc"; sourceTree = "<group>"; };
+		3E869CC61D9DE5460071EAA8 /* 宋秉洋 - 雨天.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "宋秉洋 - 雨天.mp3"; sourceTree = "<group>"; };
+		3E869CC71D9DE5460071EAA8 /* MicrosoftShipAssertLog_MSWD1433_Send.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MicrosoftShipAssertLog_MSWD1433_Send.txt; sourceTree = "<group>"; };
+		3E869CC81D9DE5460071EAA8 /* presentation-onevcat.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "presentation-onevcat.pdf"; sourceTree = "<group>"; };
+		3E869CC91D9DE5460071EAA8 /* 06-往网页中添加内容(掌握).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "06-往网页中添加内容(掌握).mp4"; sourceTree = "<group>"; };
+		3E869CCA1D9DE5460071EAA8 /* 产品研发部2016年月度考核-8月-魏琦.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = "产品研发部2016年月度考核-8月-魏琦.xls"; sourceTree = "<group>"; };
+		3E869CCB1D9DE5460071EAA8 /* GCD分享.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GCD分享.pptx"; sourceTree = "<group>"; };
+		4839AB96304A94133BE431B5 /* libPods-AFNetworking3UploadFile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworking3UploadFile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FAF559BDDC6B18E51DE6E2 /* Pods-AFNetworking3UploadFile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking3UploadFile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking3UploadFile/Pods-AFNetworking3UploadFile.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B650F6CA06E3E987B6EF841 /* libPods-AFNetworking3UploadFile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +133,8 @@
 				3E869C921D9D47920071EAA8 /* AFNetworking3UploadFileTests */,
 				3E869C9D1D9D47920071EAA8 /* AFNetworking3UploadFileUITests */,
 				3E869C771D9D47920071EAA8 /* Products */,
+				450FCEBFDA68C48C66670F15 /* Pods */,
+				DCDAE1B9F20A0401253C6F63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +151,37 @@
 		3E869C781D9D47920071EAA8 /* AFNetworking3UploadFile */ = {
 			isa = PBXGroup;
 			children = (
+				3E869CD71D9DE5790071EAA8 /* Sources */,
+				3E869CBB1D9D4E0E0071EAA8 /* WQUploadFileEnums.h */,
+				3E869CAF1D9D4B5C0071EAA8 /* NSString+DES.h */,
+				3E869CB01D9D4B5C0071EAA8 /* NSString+DES.m */,
+				3E869CB21D9D4B750071EAA8 /* LQBase64.h */,
+				3E869CB31D9D4B750071EAA8 /* LQBase64.m */,
+				3E869CB51D9D4B8C0071EAA8 /* NSString+NSHash.h */,
+				3E869CB61D9D4B8C0071EAA8 /* NSString+NSHash.m */,
 				3E869C7C1D9D47920071EAA8 /* AppDelegate.h */,
 				3E869C7D1D9D47920071EAA8 /* AppDelegate.m */,
+				3E869CAC1D9D48400071EAA8 /* WQUploadFileServer.h */,
+				3E869CAD1D9D48400071EAA8 /* WQUploadFileServer.m */,
 				3E869C7F1D9D47920071EAA8 /* ViewController.h */,
 				3E869C801D9D47920071EAA8 /* ViewController.m */,
+				3E869CB81D9D4DD50071EAA8 /* NSDictionary+CoverMimeType.h */,
+				3E869CB91D9D4DD50071EAA8 /* NSDictionary+CoverMimeType.m */,
+				3E869CBC1D9D4EA50071EAA8 /* NSString+FileMimeType.h */,
+				3E869CBD1D9D4EA50071EAA8 /* NSString+FileMimeType.m */,
 				3E869C821D9D47920071EAA8 /* Main.storyboard */,
+				3E869CBF1D9DE5250071EAA8 /* 部门会议-20160922.ppt */,
+				3E869CC11D9DE5460071EAA8 /* 产品研发部2016年月度考核-8月-魏琦.xlsx */,
+				3E869CC21D9DE5460071EAA8 /* MSC12_John_001.jpg */,
+				3E869CC31D9DE5460071EAA8 /* 1234.docx */,
+				3E869CC41D9DE5460071EAA8 /* 851571379590054.gif */,
+				3E869CC51D9DE5460071EAA8 /* 应用服务接口规范说明-文件模块.doc */,
+				3E869CC61D9DE5460071EAA8 /* 宋秉洋 - 雨天.mp3 */,
+				3E869CC71D9DE5460071EAA8 /* MicrosoftShipAssertLog_MSWD1433_Send.txt */,
+				3E869CC81D9DE5460071EAA8 /* presentation-onevcat.pdf */,
+				3E869CC91D9DE5460071EAA8 /* 06-往网页中添加内容(掌握).mp4 */,
+				3E869CCA1D9DE5460071EAA8 /* 产品研发部2016年月度考核-8月-魏琦.xls */,
+				3E869CCB1D9DE5460071EAA8 /* GCD分享.pptx */,
 				3E869C851D9D47920071EAA8 /* Assets.xcassets */,
 				3E869C871D9D47920071EAA8 /* LaunchScreen.storyboard */,
 				3E869C8A1D9D47920071EAA8 /* Info.plist */,
@@ -140,6 +216,30 @@
 			path = AFNetworking3UploadFileUITests;
 			sourceTree = "<group>";
 		};
+		3E869CD71D9DE5790071EAA8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		450FCEBFDA68C48C66670F15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4FAF559BDDC6B18E51DE6E2 /* Pods-AFNetworking3UploadFile.debug.xcconfig */,
+				104BA302FE71A346A28825C8 /* Pods-AFNetworking3UploadFile.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCDAE1B9F20A0401253C6F63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4839AB96304A94133BE431B5 /* libPods-AFNetworking3UploadFile.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E869CA31D9D47920071EAA8 /* Build configuration list for PBXNativeTarget "AFNetworking3UploadFile" */;
 			buildPhases = (
+				CD7955498D98838B7A1CED15 /* [CP] Check Pods Manifest.lock */,
 				3E869C721D9D47920071EAA8 /* Sources */,
 				3E869C731D9D47920071EAA8 /* Frameworks */,
 				3E869C741D9D47920071EAA8 /* Resources */,
+				6781BC525D73C3257402B86D /* [CP] Embed Pods Frameworks */,
+				3EB486AD4408567429E6D76E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +310,7 @@
 				TargetAttributes = {
 					3E869C751D9D47920071EAA8 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = NYRBZT6Z59;
+						DevelopmentTeam = TPYYMT2ZLN;
 						ProvisioningStyle = Automatic;
 					};
 					3E869C8E1D9D47920071EAA8 = {
@@ -249,9 +352,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E869CD41D9DE5460071EAA8 /* 06-往网页中添加内容(掌握).mp4 in Resources */,
 				3E869C891D9D47920071EAA8 /* LaunchScreen.storyboard in Resources */,
+				3E869CD01D9DE5460071EAA8 /* 应用服务接口规范说明-文件模块.doc in Resources */,
+				3E869CCD1D9DE5460071EAA8 /* MSC12_John_001.jpg in Resources */,
 				3E869C861D9D47920071EAA8 /* Assets.xcassets in Resources */,
+				3E869CD51D9DE5460071EAA8 /* 产品研发部2016年月度考核-8月-魏琦.xls in Resources */,
+				3E869CC01D9DE5250071EAA8 /* 部门会议-20160922.ppt in Resources */,
+				3E869CD31D9DE5460071EAA8 /* presentation-onevcat.pdf in Resources */,
+				3E869CCF1D9DE5460071EAA8 /* 851571379590054.gif in Resources */,
+				3E869CCE1D9DE5460071EAA8 /* 1234.docx in Resources */,
 				3E869C841D9D47920071EAA8 /* Main.storyboard in Resources */,
+				3E869CCC1D9DE5460071EAA8 /* 产品研发部2016年月度考核-8月-魏琦.xlsx in Resources */,
+				3E869CD11D9DE5460071EAA8 /* 宋秉洋 - 雨天.mp3 in Resources */,
+				3E869CD21D9DE5460071EAA8 /* MicrosoftShipAssertLog_MSWD1433_Send.txt in Resources */,
+				3E869CD61D9DE5460071EAA8 /* GCD分享.pptx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +386,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3EB486AD4408567429E6D76E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFNetworking3UploadFile/Pods-AFNetworking3UploadFile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6781BC525D73C3257402B86D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFNetworking3UploadFile/Pods-AFNetworking3UploadFile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD7955498D98838B7A1CED15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E869C721D9D47920071EAA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,7 +441,13 @@
 			files = (
 				3E869C811D9D47920071EAA8 /* ViewController.m in Sources */,
 				3E869C7E1D9D47920071EAA8 /* AppDelegate.m in Sources */,
+				3E869CBA1D9D4DD50071EAA8 /* NSDictionary+CoverMimeType.m in Sources */,
+				3E869CBE1D9D4EA50071EAA8 /* NSString+FileMimeType.m in Sources */,
+				3E869CB11D9D4B5C0071EAA8 /* NSString+DES.m in Sources */,
+				3E869CB41D9D4B750071EAA8 /* LQBase64.m in Sources */,
 				3E869C7B1D9D47920071EAA8 /* main.m in Sources */,
+				3E869CB71D9D4B8C0071EAA8 /* NSString+NSHash.m in Sources */,
+				3E869CAE1D9D48400071EAA8 /* WQUploadFileServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,9 +594,10 @@
 		};
 		3E869CA41D9D47920071EAA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4FAF559BDDC6B18E51DE6E2 /* Pods-AFNetworking3UploadFile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NYRBZT6Z59;
+				DEVELOPMENT_TEAM = TPYYMT2ZLN;
 				INFOPLIST_FILE = AFNetworking3UploadFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.drcacom.com.AFNetworking3UploadFile;
@@ -437,9 +607,10 @@
 		};
 		3E869CA51D9D47920071EAA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104BA302FE71A346A28825C8 /* Pods-AFNetworking3UploadFile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NYRBZT6Z59;
+				DEVELOPMENT_TEAM = TPYYMT2ZLN;
 				INFOPLIST_FILE = AFNetworking3UploadFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.drcacom.com.AFNetworking3UploadFile;
@@ -516,6 +687,7 @@
 				3E869CA51D9D47920071EAA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E869CA61D9D47920071EAA8 /* Build configuration list for PBXNativeTarget "AFNetworking3UploadFileTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +696,7 @@
 				3E869CA81D9D47920071EAA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E869CA91D9D47920071EAA8 /* Build configuration list for PBXNativeTarget "AFNetworking3UploadFileUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +705,7 @@
 				3E869CAB1D9D47920071EAA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
